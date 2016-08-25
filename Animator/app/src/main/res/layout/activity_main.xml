@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:text="111"
+        android:visibility="gone"
+        android:background="#52125454"
+        android:layout_height="300dp" />
+
+    <View
+        android:id="@+id/status_bar_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+    <!--<com.example.yhy.myapplication.CircleView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dip"-->
+        <!--android:visibility="gone"-->
+        <!--android:gravity="center"-->
+        <!--android:background="@android:color/darker_gray" />-->
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/my_query"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/my_recycle"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/iamge"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/special_no_start_smaller"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
